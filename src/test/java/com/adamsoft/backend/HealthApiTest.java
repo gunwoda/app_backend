@@ -8,7 +8,6 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 @SpringBootTest
 public class HealthApiTest {
-
     @Test
     public void testHealthOk(){
         var api = new HealthApi();
